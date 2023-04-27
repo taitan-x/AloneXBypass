@@ -37,7 +37,12 @@
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "your id",
         "required": true
-      },        
+      }, 
+      "GIT_TOKEN": {
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "",
+        "required": true
+      },       
       "STRING_SESSION": {
         "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
         "value": "",
