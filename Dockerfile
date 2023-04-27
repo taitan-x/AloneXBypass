@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/TheTeamAlexa/AlexaMusic AlexaMusic
-RUN cd AlexaMusic && pip3 install -U -r requirements.txt
-CMD cd AlexaMusic && bash start
+RUN git clone https://github.com/TeamAloneOp/Aloneyukki YukkiMusicBot
+RUN cd YukkiMusicBot && pip3 install -U -r requirements.txt
+CMD cd YukkiMusicBot && bash start
