@@ -39,7 +39,7 @@
         "required": true
       }, 
       "GIT_TOKEN": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "Git Token",
         "value": "",
         "required": true
       },       
