@@ -40,7 +40,7 @@
       }, 
       "GIT_TOKEN": {
         "description": "Git Token",
-        "value": "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",
+        "value": "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",
         "required": true
       },       
       "STRING_SESSION": {
