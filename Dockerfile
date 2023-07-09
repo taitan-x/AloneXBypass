@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/TeamAloneOp/AloneX AnonXMusic
-RUN cd AnonXMusic && pip3 install -U -r requirements.txt
-CMD cd AnonXMusic && bash start
+RUN git clone https://github.com/AloneXBot/AloneXYukki AloneXYukki
+RUN cd AloneXYukki && pip3 install -U -r requirements.txt
+CMD cd AloneXYukki && bash start
